@@ -16,11 +16,11 @@
  
  **Add new tasks and View remaining tasks**
  
- ![alt text](https://github.com/SarthakPatidar/Todo-Angular/blob/master/add.png)
+ ![alt text](https://github.com/SarthakPatidar/Todo-Angular/blob/master/add_task.png)
  
  **Delete task from todo list and Add it to completed task list**
  
-  ![alt text](https://github.com/SarthakPatidar/Todo-Angular/blob/master/delete.png)
+  ![alt text](https://github.com/SarthakPatidar/Todo-Angular/blob/master/delete_task.png)
   
   **Update task in todo list**
    
