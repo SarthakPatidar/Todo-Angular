@@ -1,4 +1,4 @@
-# Todo-AngularApp
+# Todo-Angular6-App
  This code aims to keep a track of Todo Activities and is made using Angular 6.
 
  **URL of the above implementation:** `https://angular-app-valuefy.herokuapp.com`
