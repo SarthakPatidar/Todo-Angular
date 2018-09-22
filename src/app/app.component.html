@@ -1,0 +1,72 @@
+<nav class="navbar navbar-dark bg-dark">
+<form class="heading form-inline">
+  <div class="search">To-Do Angular Application</div>
+</form>
+</nav>
+
+
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<div class="col-xs-12 col-md-12 col-lg-12 container">
+<div class="row result">
+  <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-8">
+      <div class="card-body">
+          <div class="card-title">
+              <div class="row">
+                  <div class="input col-xs-2 col-md-6">
+                      <input id="todo_text" name="todo_text" [(ngModel)] = "todo_text" type="text" class="form-control" placeholder="Add something to your Todo List" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="col-xs-2 col-md-6 liner">
+                      <div class="row float-right">
+                          <button class="btn btn-secondary pref" (click)="addTodo()" type="button">
+                              Add
+                              <i class="far fa-angle-down"></i>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div name="allTodos" *ngFor="let item of allTodos" ngDefaultControl>
+          <ul class="list-group list-group-flush">
+              <li appDraggable class="list-group-item">
+                  <div class="col-md-12">
+                      <div class="row">
+                          <i (click)="removeTodo(item.id)" [ngClass]="{'done': (bool === item.id) }" class="fa fa-check rounded-circle" aria-hidden="true"></i>
+                          <div class="col-xs-3 col-sm-6 col-md-9 userbox">
+                              <h5 *ngIf="item.id === EditListID"><input type="text" [name]="item.id" (blur)="update($event,item.id)" [(ngModel)]="item.todo"></h5>
+                              <h5 *ngIf="item.id !== EditListID" [ngClass]="{'strike': (bool === item.id) }" (click)="Edit(item.id)" class="usrpostname" >{{ item.todo }}</h5>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </div>
+</div>
+
+<div class="row result result-success">
+    <div class="card complete col-xs-12 col-sm-12 col-md-12 col-lg-8">
+        <div class="card-header complete-header">
+          Successful Tasks
+        </div>
+        <div name="allDone" *ngFor="let item of allDone">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item success-item">                     
+                <div class="col-md-12">
+                  <div class="row">
+                    <i class="done fa fa-check rounded-circle" aria-hidden="true"></i>
+                      <div class="col-xs-3 col-sm-6 col-md-9 userbox">
+                        <h5 class="usrpostname strike" >{{ item.todo }}</h5>
+                      </div>
+                    </div>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+</div>
+</div>
+
+

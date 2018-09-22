@@ -1,16 +1,27 @@
-# Todo-Angular
-This code aims to keep a track of Todo Activities and is made using Angular 6.
+# AngularAppValuefy
 
-**URL of the above implementation:** `https://angular-app-valuefy.herokuapp.com`
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
-**Functions Implemented in this Angular Application:**
+## Development server
 
-1) **Add**: Users can add a task by simply writing it into text box provided and hit `Add` Button on the right.
-2) **View**: Users can able to see their todo tasks as well as task they have completed.
-3) **Update**: To update the given task user has to click/tap on task message and change entries.
-4) **Delete**: Once the user completes a task, clicking on the checkbox on left will delete task from Todo List and adds it into successful completion list.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-**How do this app stores user data ?**
+## Code scaffolding
 
-User's data which includes a lists of todo tasks as well as completed tasks is stored in LocalStorage. The data is written and retrieved using angular service. To view this data using developers tools in browser, Hit `F12` and under application tab click LocalStorage.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

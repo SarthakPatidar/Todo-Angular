@@ -1,0 +1,342 @@
+.complete{
+    margin-top:  5%;
+    padding: 0px;
+}
+.complete-header{
+    text-align: center;
+    padding: 1.3%;
+    font-size: 1.5em;
+    color: green;
+}
+.success-item{
+    padding: 0.45rem 2.25rem !important;
+}
+
+.result-success{
+    margin-top: 5% !important;
+}
+
+
+
+.todo{
+    margin: auto;
+    position: sticky;
+    top: 38%;
+}
+.card,.result{
+    margin: auto;
+}
+.heading{
+    margin: auto;
+}
+.bg-dark{
+    height: 10%;
+}
+.list-group{
+    border-top: 2px solid silver;
+    cursor: move;
+}
+.list-group-item{
+    padding: 0.45rem 1.25rem;
+}
+.search{
+    color: white;
+    background: green;
+    padding: 10px 20px;
+    /* border-radius: 24%; */
+    font-size: 1.5em;
+}
+.container{
+    top: 18%;
+}
+.fa-check:hover{
+    cursor: pointer;
+}
+.fa-check::before{
+    border: 2px solid silver;
+    padding: 20%;
+    color: silver;
+    border-radius: 50%;
+}
+.done::before{
+    border: 2px solid green;
+    padding: 20%;
+    color: green;
+    border-radius: 50%;
+}
+i.fa-check{
+    margin-top: 22px;
+}
+.strike{
+    text-decoration: line-through;
+}
+
+textarea, input {
+    padding:10px;
+      font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+  }
+  h5.usrpostname{
+      color: #007bff;
+  }
+  .dropdown-toggle::after {
+      display:none;
+  }
+  .typecont{
+      background-color: #ffffff; 
+  }
+  .userbox{
+      padding-top: 2.3%;
+      padding-left: 5%;
+  }
+  .inpbx{
+      margin: 2% auto;    
+  }
+  input.typebx{
+      border-radius: 0px; 
+      border: 0px;
+      margin-right: 34px;
+  }
+  p.timestamp{
+      font-size: 15px;
+      color: gray;
+  }
+  button.pref{
+      background-color: white;
+      color: black;
+      border-radius: 25px;
+      border: 2px solid orange;
+  }
+  button.search_ques{
+      background-color: orange;
+      color: white;
+      border: 2px solid orange;
+      position: relative;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      right: 15px;
+      border-radius: 0px;
+  }
+  .sort-txt{
+      padding-top: 6px;
+      padding-right: 15px; 
+  }
+  .bg-black{
+      background-color: #191919;
+  }
+  .img-responsive{
+      margin: 0 auto;
+  }
+  .cont-box{
+      width: 100%;
+  }
+  .nav{
+      display: inline-block;
+  }
+  .scbox{
+  float: none;
+      margin: 0 auto;
+      margin-top: 35px;
+      margin-bottom: 5px;
+  }
+  .usr{
+      display: inline;
+  }
+  .area{
+      background-color: #e5e5e5;
+      margin: 0px;
+      padding: 40px 10px;
+  }
+  h4{
+      color: white;
+      margin: 0px;
+  
+  }
+  .menu{
+      display: inline-block;
+  }
+  li.usrdrp{
+      display: inline;
+  }
+  a.nav-link{
+      background-color: transparent !important;
+  }
+  .menus{
+      top: 37px;
+      left: -37px;
+  }
+  a.owner{
+      color: white;
+      text-decoration: underline;
+      font-size: 20px;
+      display: inline-block;
+  }
+  button.pref:hover, button.pref:focus{
+      background-color: #ffffff !important;
+      border: 2px solid orange;
+      color: black !important;
+  }
+  .show>button.pref{
+      border-color: orange !important;
+  }
+  
+  button.search_ques:hover, button.search_ques:focus{
+      background-color: orange !important;
+      border: 2px solid orange;
+      color: white !important;
+  }
+  .show>button.search_ques{
+      border-color: orange !important;
+  }
+  
+  .nav>li>a.owner:hover, .nav>li>a.owner:focus
+  {
+      text-decoration: underline;
+      background-color: transparent;
+      font-size: 20px;
+  }
+  .userimage{
+      width: 50px;
+      position: relative;
+      float: left;
+      height: 50px;
+  }
+  .usrimg{
+      width: 31px;
+      position: relative;
+      float: left;
+      top: 7px;
+  }
+  .jumbotron{
+      border-bottom: 4px solid #FF8C00;
+      margin-top: 0px;
+      background: url(/img/background.png) no-repeat center;
+      border-radius: 0px;
+          margin-bottom: 0px;
+  }
+  .topper{
+      background-color: black;
+      color: white;
+      text-align: center;
+      border-bottom: 2px solid orange;
+  }
+  .lbd{
+      padding: 0px;
+      border: none;
+      margin-left: 5%;
+  }
+  i.trop{
+      color: orange;
+      font-size: 35px;
+      padding-right: 10px;
+  }
+  /* Custom, iPhone Retina */ 
+  @media only screen and (min-width : 320px) {
+      img.logo{
+          width: 45%;
+      }
+      .msg{
+          margin-top: 2em;
+      }
+  }
+  h6.rank_name{
+      padding-left: 12px;
+      padding-top: 12px;
+  }
+  p.rank{
+      padding-right: 12px; 
+      padding-top: 12px;
+      padding-left: 10px;
+  }
+  img.userimage_lbd{
+      width: 50px;
+      position: relative;
+      float: left;
+      height: 50px;
+  }
+
+  .footer_bottom {
+      background: #181818;
+      padding: 15px 0;
+      color: white;
+      text-align: center;
+      font-size: 18px;
+  }
+  .footer_bottom a, .modal_box a, .feature a {
+      color: #1db9ea;
+      text-decoration: none;
+  }
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (min-width : 480px) {
+      img.logo{
+          width: 35%;
+      }
+      .msg{
+          margin-top: 4em;
+      }
+      .userimage{
+          width: 70px;
+          height: 70px;
+      }
+  
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 320px) {
+    .search{
+        color: white;
+        background: green;
+        padding: 6px 20px;
+        font-size: 1.2em;
+    }
+    .card{
+        margin-top: 7%;
+    }
+    .liner{
+        margin-top: 10px;
+    }
+    .fa-check{
+        font-size: 10px;
+    }
+    h5.usrpostname{
+        position: relative;
+        bottom: 73%;
+        left: 15%;
+    }
+}
+
+  @media only screen and (min-width : 512px) {
+    .search{
+        color: white;
+    background: green;
+    padding: 11px 50px;
+    font-size: 1.3em;
+    }
+    h5.usrpostname{
+        position: relative;
+        bottom: 3%;
+        left: -2%;
+    }
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+      img.logo{
+          width: 22%;
+      }
+      h5.usrpostname{
+        position: relative;
+        bottom: 22%;
+        left: -4%;
+      } 
+  }
+  
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px) {
+      img.logo{
+          width: 16%;
+      }
+  }
+  
